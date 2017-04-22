@@ -1,0 +1,1448 @@
+fileFormatVersion: 2
+guid: 1c43219d58639fb40b30927539f7b11a
+timeCreated: 1492880377
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 3DS - Brave Dungeon - Aru_0
+    21300002: 3DS - Brave Dungeon - Aru_1
+    21300004: 3DS - Brave Dungeon - Aru_2
+    21300006: 3DS - Brave Dungeon - Aru_3
+    21300008: 3DS - Brave Dungeon - Aru_4
+    21300010: 3DS - Brave Dungeon - Aru_5
+    21300012: 3DS - Brave Dungeon - Aru_6
+    21300014: 3DS - Brave Dungeon - Aru_7
+    21300016: 3DS - Brave Dungeon - Aru_8
+    21300018: 3DS - Brave Dungeon - Aru_9
+    21300020: 3DS - Brave Dungeon - Aru_10
+    21300022: 3DS - Brave Dungeon - Aru_11
+    21300024: 3DS - Brave Dungeon - Aru_12
+    21300026: 3DS - Brave Dungeon - Aru_13
+    21300028: 3DS - Brave Dungeon - Aru_14
+    21300030: 3DS - Brave Dungeon - Aru_15
+    21300032: 3DS - Brave Dungeon - Aru_16
+    21300034: 3DS - Brave Dungeon - Aru_17
+    21300036: 3DS - Brave Dungeon - Aru_18
+    21300038: 3DS - Brave Dungeon - Aru_19
+    21300040: 3DS - Brave Dungeon - Aru_20
+    21300042: 3DS - Brave Dungeon - Aru_21
+    21300044: 3DS - Brave Dungeon - Aru_22
+    21300046: 3DS - Brave Dungeon - Aru_23
+    21300048: 3DS - Brave Dungeon - Aru_24
+    21300050: 3DS - Brave Dungeon - Aru_25
+    21300052: 3DS - Brave Dungeon - Aru_26
+    21300054: 3DS - Brave Dungeon - Aru_27
+    21300056: 3DS - Brave Dungeon - Aru_28
+    21300058: 3DS - Brave Dungeon - Aru_29
+    21300060: 3DS - Brave Dungeon - Aru_30
+    21300062: 3DS - Brave Dungeon - Aru_31
+    21300064: 3DS - Brave Dungeon - Aru_32
+    21300066: 3DS - Brave Dungeon - Aru_33
+    21300068: 3DS - Brave Dungeon - Aru_34
+    21300070: 3DS - Brave Dungeon - Aru_35
+    21300072: 3DS - Brave Dungeon - Aru_36
+    21300074: 3DS - Brave Dungeon - Aru_37
+    21300076: 3DS - Brave Dungeon - Aru_38
+    21300078: 3DS - Brave Dungeon - Aru_39
+    21300080: 3DS - Brave Dungeon - Aru_40
+    21300082: 3DS - Brave Dungeon - Aru_41
+    21300084: 3DS - Brave Dungeon - Aru_42
+    21300086: 3DS - Brave Dungeon - Aru_43
+    21300088: 3DS - Brave Dungeon - Aru_44
+    21300090: 3DS - Brave Dungeon - Aru_45
+    21300092: 3DS - Brave Dungeon - Aru_46
+    21300094: 3DS - Brave Dungeon - Aru_47
+    21300096: 3DS - Brave Dungeon - Aru_48
+    21300098: 3DS - Brave Dungeon - Aru_49
+    21300100: 3DS - Brave Dungeon - Aru_50
+    21300102: 3DS - Brave Dungeon - Aru_51
+    21300104: 3DS - Brave Dungeon - Aru_52
+    21300106: 3DS - Brave Dungeon - Aru_53
+    21300108: 3DS - Brave Dungeon - Aru_54
+    21300110: 3DS - Brave Dungeon - Aru_55
+    21300112: 3DS - Brave Dungeon - Aru_56
+    21300114: 3DS - Brave Dungeon - Aru_57
+    21300116: 3DS - Brave Dungeon - Aru_58
+    21300118: 3DS - Brave Dungeon - Aru_59
+    21300120: 3DS - Brave Dungeon - Aru_60
+    21300122: 3DS - Brave Dungeon - Aru_61
+    21300124: 3DS - Brave Dungeon - Aru_62
+    21300126: 3DS - Brave Dungeon - Aru_63
+    21300128: 3DS - Brave Dungeon - Aru_64
+    21300130: 3DS - Brave Dungeon - Aru_65
+    21300132: 3DS - Brave Dungeon - Aru_66
+    21300134: 3DS - Brave Dungeon - Aru_67
+    21300136: 3DS - Brave Dungeon - Aru_68
+    21300138: 3DS - Brave Dungeon - Aru_69
+    21300140: 3DS - Brave Dungeon - Aru_70
+    21300142: 3DS - Brave Dungeon - Aru_71
+    21300144: 3DS - Brave Dungeon - Aru_72
+    21300146: 3DS - Brave Dungeon - Aru_73
+    21300148: 3DS - Brave Dungeon - Aru_74
+    21300150: 3DS - Brave Dungeon - Aru_75
+    21300152: 3DS - Brave Dungeon - Aru_76
+    21300154: 3DS - Brave Dungeon - Aru_77
+    21300156: 3DS - Brave Dungeon - Aru_78
+    21300158: 3DS - Brave Dungeon - Aru_79
+    21300160: 3DS - Brave Dungeon - Aru_80
+    21300162: 3DS - Brave Dungeon - Aru_81
+    21300164: 3DS - Brave Dungeon - Aru_82
+    21300166: 3DS - Brave Dungeon - Aru_83
+    21300168: 3DS - Brave Dungeon - Aru_84
+    21300170: 3DS - Brave Dungeon - Aru_85
+    21300172: 3DS - Brave Dungeon - Aru_86
+    21300174: 3DS - Brave Dungeon - Aru_87
+    21300176: 3DS - Brave Dungeon - Aru_88
+    21300178: 3DS - Brave Dungeon - Aru_89
+    21300180: 3DS - Brave Dungeon - Aru_90
+    21300182: 3DS - Brave Dungeon - Aru_91
+    21300184: 3DS - Brave Dungeon - Aru_92
+    21300186: 3DS - Brave Dungeon - Aru_93
+    21300188: 3DS - Brave Dungeon - Aru_94
+    21300190: 3DS - Brave Dungeon - Aru_95
+    21300192: 3DS - Brave Dungeon - Aru_96
+    21300194: 3DS - Brave Dungeon - Aru_97
+    21300196: 3DS - Brave Dungeon - Aru_98
+    21300198: 3DS - Brave Dungeon - Aru_99
+    21300200: 3DS - Brave Dungeon - Aru_100
+    21300202: 3DS - Brave Dungeon - Aru_101
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 960
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 960
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 960
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 960
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 960
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 960
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_6
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 960
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_7
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 960
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 896
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 896
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 896
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 896
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_12
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 899
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_13
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 899
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_14
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 899
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_15
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 899
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 848
+        width: 78
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 848
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_19
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 848
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_20
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 848
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_21
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 848
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_23
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 800
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_24
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 800
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_25
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 800
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_26
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 800
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_29
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 800
+        width: 55
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_30
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 736
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_31
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 736
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_32
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 736
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_33
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 736
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_34
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 736
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_35
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 736
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_36
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 672
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_37
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 672
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_38
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 672
+        width: 70
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_39
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 672
+        width: 76
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_40
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 672
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_41
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 672
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_42
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 608
+        width: 59
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_43
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 608
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_44
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 608
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_45
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 608
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_46
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 608
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_47
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 608
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_48
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 544
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_49
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 545
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_50
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 544
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_51
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 544
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_52
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 544
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_53
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 545
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_54
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 544
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_55
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 544
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_56
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 480
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_57
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 481
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_58
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 480
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_59
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 480
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_60
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 480
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_61
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 481
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_62
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 480
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_63
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 480
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_64
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 416
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_65
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 417
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_66
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 416
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_67
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 416
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_68
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 416
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_69
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 417
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_70
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 416
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_71
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 416
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_72
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 352
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_73
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 352
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_74
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 352
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_75
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 352
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_76
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 288
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_77
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 288
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_78
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 288
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_79
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 288
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_80
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 288
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_81
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 288
+        width: 51
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_82
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 224
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_83
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 224
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_84
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 224
+        width: 51
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_85
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 224
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_86
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 224
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_87
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 224
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_88
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 160
+        width: 51
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_89
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 160
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_90
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 160
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_91
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 160
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_92
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 160
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_93
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 160
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_94
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 96
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_95
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 96
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_96
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 96
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_97
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 96
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_98
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 96
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_99
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 96
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_22
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 800
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_101
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 800
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: 3DS - Brave Dungeon - Aru_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 848
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
