@@ -2,24 +2,29 @@
 using System.Collections;
 
 public class AxeScript : MonoBehaviour {
-	GameObject KirvesObj;
-	Collider2D Kirves;
+	GameObject tObject;
+	Animator animator;
 	// Use this for initialization
 	void Start () {
-		KirvesObj = this.gameObject;
-		Kirves = this.GetComponent<Collider2D> ();
+		tObject = this.gameObject;
+		animator = this.GetComponent<Animator> ();
+		Debug.Log ("Object created");
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-		Destroy (KirvesObj, 2f);
 	}
-	void OnCollisionEnter (Collision collision)
+	void OnCollisionEnter2D (Collision2D collision)
 	{
-		if (collision.gameObject.tag == "Player") {
-			Physics2D.IgnoreCollision (Kirves, GameObject.FindGameObjectWithTag ("Player").GetComponent<Collider2D>());
+		Debug.Log ("Collision");
+		if(gameObject.tag == "Magic"){
+			tObject.GetComponent<Rigidbody2D> ().velocity = Vector3.zero;
+			animator.SetTrigger ("destroy");
 		}
+	}
+	void Destroy(){
 
+		Destroy (tObject);
 	}
 
 }

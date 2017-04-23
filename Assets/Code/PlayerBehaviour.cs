@@ -7,15 +7,15 @@ public class PlayerBehaviour : MonoBehaviour {
 	private float mvspd;
 	[SerializeField]
 	private float jmpheight;
-	[SerializeField]
-	private float bltSpd;
 
+	int attacktype;
 	private bool doublejump;
-	private bool direction; // true = left, false = right
+	public bool direction; // true = left, false = right
 
-	public Rigidbody2D Kirves;
+
 	private Rigidbody2D Player;
 	public LayerMask Ground;
+	public LayerMask Objects;
 	private Animator animator;
 
 	private Vector2 s;
@@ -26,6 +26,7 @@ public class PlayerBehaviour : MonoBehaviour {
 	void Start () {
 		Player = GetComponentInChildren<Rigidbody2D> ();
 		Ground = LayerMask.GetMask ("Ground");
+		Objects = LayerMask.GetMask ("Objects");
 		animator = GetComponentInChildren<Animator> ();
 		direction = true;
 		doublejump = true;
@@ -35,40 +36,57 @@ public class PlayerBehaviour : MonoBehaviour {
 		float horizontal = Input.GetAxis("Horizontal");
 		HandleMovement (horizontal);
 		Flip (horizontal);
+		HandleAttacks ();
+		Reset ();
 	}
 
 	void Update ()
 	{
-
-
+		HandleInput ();
+	}
+	private void HandleAttacks(){
+		if (attacktype == 1) {
+			animator.SetTrigger ("Attack");
+		}
+		if (attacktype == 2) {
+			animator.SetTrigger ("Magic");
+		}
+		if (attacktype == 3) {
+			animator.SetTrigger ("Throw");
+		}
+	}
+	private void HandleInput(){
 		if (Input.GetKey (KeyCode.R)) {
 			Player.velocity = Vector2.zero;
 			transform.position = start;
 		}
-		if (Input.GetKey(KeyCode.Space) && IsGrounded()) {
-			doublejump = true;
-			Player.AddForce (Vector2.up, ForceMode2D.Impulse);
-			animator.SetTrigger ("jump");
-		}
-		if (Input.GetKey(KeyCode.Space) && doublejump) {
+		if (Input.GetKeyDown(KeyCode.Space)) {
+			if(IsGrounded()){
+				Debug.Log ("Check");
+				Player.AddForce (Vector2.up * jmpheight, ForceMode2D.Impulse);
+				doublejump = true;
+				animator.SetTrigger ("jump");
+			}
+			else if(doublejump){
+				Debug.Log ("Check2");
 				doublejump = false;
-			Player.AddForce (Vector2.up *jmpheight, ForceMode2D.Impulse);
+				Player.AddForce (Vector2.up *jmpheight, ForceMode2D.Impulse);
+				animator.SetTrigger ("jump");
+			}
+		}
 
+		if (Input.GetKeyDown(KeyCode.LeftShift)) {
+			attacktype = 1;
+		}
+		if (Input.GetKeyDown (KeyCode.LeftControl)) {
+			attacktype = 2;
 		}
 		if (Input.GetMouseButtonDown (0)) {
-			ThrowAxe ();
+			attacktype = 3;
 		}
+
 	}
 
-	private void ThrowAxe() {
-		Vector3 MousePos = Camera.main.ScreenToWorldPoint (Input.mousePosition);
-		Debug.DrawLine (transform.position, MousePos);
-		Vector3 Dir = MousePos - transform.position;
-		Rigidbody2D KirvesClone = (Rigidbody2D) Instantiate (Kirves, transform.position, transform.rotation);
-		KirvesClone.transform.LookAt (Camera.main.ScreenToWorldPoint(MousePos));
-		KirvesClone.AddForce (Dir * bltSpd, ForceMode2D.Impulse);
-		KirvesClone.AddTorque(-50);
-	}
 	private void HandleMovement(float horizontal){
 		Player.AddForce(Vector2.right * horizontal, ForceMode2D.Impulse);
 
@@ -86,7 +104,9 @@ public class PlayerBehaviour : MonoBehaviour {
 		s = transform.position;
 		s.y = GetComponent<Collider2D> ().bounds.min.y + 0.1f;
 		Debug.DrawRay(s, Vector2.down, Color.red);
-		return Physics2D.Raycast (s, Vector2.down, 0.2f, Ground);
+		return Physics2D.Raycast (s, Vector2.down, 0.2f, Ground) || Physics2D.Raycast (s, Vector2.down, 0.2f, Objects);
 	}
-
+	private void Reset(){
+		attacktype = 0;
+	}
 }
