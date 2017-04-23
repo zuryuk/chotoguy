@@ -2,10 +2,11 @@
 using System.Collections;
 
 public class AxeScript : MonoBehaviour {
-	GameObject tObject;
-	Animator animator;
+	private GameObject tObject;
+	private Animator animator;
 	// Use this for initialization
 	void Start () {
+		
 		tObject = this.gameObject;
 		animator = this.GetComponent<Animator> ();
 		Debug.Log ("Object created");

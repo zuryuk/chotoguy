@@ -6,16 +6,23 @@ public class PlayerBehaviour : MonoBehaviour {
 	[SerializeField]
 	private float mvspd;
 	[SerializeField]
-	private float jmpheight;
+	private float jmpheight = 0;
 
-	int attacktype;
+	[SerializeField]
+	private Stat health;
+	[SerializeField]
+	private Stat mana;
+
+	private int attacktype;
 	private bool doublejump;
-	public bool direction; // true = left, false = right
+	internal bool direction; // true = left, false = right
 
 
 	private Rigidbody2D Player;
-	public LayerMask Ground;
-	public LayerMask Objects;
+	[SerializeField]
+	private LayerMask Ground;
+	[SerializeField]
+	private LayerMask Objects;
 	private Animator animator;
 
 	private Vector2 s;
@@ -28,6 +35,10 @@ public class PlayerBehaviour : MonoBehaviour {
 		Ground = LayerMask.GetMask ("Ground");
 		Objects = LayerMask.GetMask ("Objects");
 		animator = GetComponentInChildren<Animator> ();
+
+		mana.MaxVal = 100;
+		mana.Currval = 100;
+
 		direction = true;
 		doublejump = true;
 		start = transform.position;
@@ -49,7 +60,10 @@ public class PlayerBehaviour : MonoBehaviour {
 			animator.SetTrigger ("Attack");
 		}
 		if (attacktype == 2) {
-			animator.SetTrigger ("Magic");
+			if (!(animator.GetCurrentAnimatorStateInfo (0).IsName ("Magic"))) {
+				mana.Currval -= 10;
+				animator.SetTrigger ("Magic");
+			}
 		}
 		if (attacktype == 3) {
 			animator.SetTrigger ("Throw");

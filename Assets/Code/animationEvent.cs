@@ -2,14 +2,21 @@
 using System.Collections;
 
 public class animationEvent : MonoBehaviour {
-	public GameObject Scythe;
-	public GameObject MagicBody;
+	[SerializeField]
+	private GameObject Scythe = null;
+	[SerializeField]
+	private GameObject MagicBody = null;
+	protected bool direction; 
+	private Vector3 theScale;
 	// Use this for initialization
 	void Start () {
+		theScale = MagicBody.transform.localScale;
+		theScale.x *= -1;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		direction = GetComponentInParent<PlayerBehaviour> ().direction;
 	
 	}
 	private void ThrowAxe() {
@@ -25,7 +32,12 @@ public class animationEvent : MonoBehaviour {
 	private void Magic(){
 
 		GameObject MagicClone = (GameObject) Instantiate (MagicBody, transform.position, transform.rotation);
-		MagicClone.GetComponent<Rigidbody2D>().AddForce (Vector2.right * 20, ForceMode2D.Impulse);
+		if (!direction) {
+			MagicClone.GetComponent<Rigidbody2D> ().AddForce (Vector2.right * 20, ForceMode2D.Impulse);
+		} else {
+			MagicClone.transform.localScale = theScale;
+			MagicClone.GetComponent<Rigidbody2D> ().AddForce (Vector2.left * 20, ForceMode2D.Impulse);
+		}
 		Destroy (MagicClone, 2f);
 	}
 }
