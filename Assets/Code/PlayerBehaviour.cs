@@ -4,7 +4,7 @@ using System.Collections;
 public class PlayerBehaviour : MonoBehaviour {
 
 	[SerializeField]
-	private float mvspd;
+	private float mvspd = 0;
 	[SerializeField]
 	private float jmpheight = 0;
 
@@ -25,12 +25,12 @@ public class PlayerBehaviour : MonoBehaviour {
 	private LayerMask Objects;
 	private Animator animator;
 	[SerializeField]
-	private Animator animator2;
+	private Animator animator2 = null;
 
+	public Vector2 Pos;
 	private Vector2 s;
 	private Vector2 start;
-	private Vector3 MousePos;
-	private Vector3 Pos;
+	private Vector3 easeVelocity;
 
 	void Start () {
 		Player = GetComponentInChildren<Rigidbody2D> ();
@@ -55,6 +55,7 @@ public class PlayerBehaviour : MonoBehaviour {
 
 	void Update ()
 	{
+		Pos = transform.position;
 		HandleInput ();
 	}
 	private void HandleAttacks(){
@@ -75,8 +76,8 @@ public class PlayerBehaviour : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.G)) {
 			animator2.SetTrigger ("Attack");
 		}
-		if (Input.GetKey (KeyCode.H)) {
-			animator2.SetTrigger ("Stomp");
+		if (Input.GetKeyDown (KeyCode.H)) {			
+				animator2.SetTrigger ("Stomp");
 		}
 		if (Input.GetKey (KeyCode.J)) {
 			animator2.SetTrigger ("Laser");
@@ -87,13 +88,11 @@ public class PlayerBehaviour : MonoBehaviour {
 		}
 		if (Input.GetKeyDown(KeyCode.Space)) {
 			if(IsGrounded()){
-				Debug.Log ("Check");
 				Player.AddForce (Vector2.up * jmpheight, ForceMode2D.Impulse);
 				doublejump = true;
 				animator.SetTrigger ("jump");
 			}
 			else if(doublejump){
-				Debug.Log ("Check2");
 				doublejump = false;
 				Player.AddForce (Vector2.up *jmpheight, ForceMode2D.Impulse);
 				animator.SetTrigger ("jump");
@@ -113,8 +112,14 @@ public class PlayerBehaviour : MonoBehaviour {
 	}
 
 	private void HandleMovement(float horizontal){
-		Player.AddForce(Vector2.right * horizontal, ForceMode2D.Impulse);
+		easeVelocity = Player.velocity;
+		if (easeVelocity.x <= 12f && easeVelocity.x > -12f)
+		{
+			easeVelocity.x = 0;
+		}
+		Player.velocity = easeVelocity;
 
+		Player.AddForce(Vector2.right * horizontal * mvspd, ForceMode2D.Impulse);
 		animator.SetFloat ("Direction", Mathf.Abs(horizontal));
 	}
 	private void Flip(float horizontal){
