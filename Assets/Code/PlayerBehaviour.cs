@@ -11,7 +11,7 @@ public class PlayerBehaviour : MonoBehaviour {
 	[SerializeField]
 	private Stat health;
 	[SerializeField]
-	private Stat mana;
+	private Stat mana = null;
 
 	private int attacktype;
 	private bool doublejump;
@@ -24,6 +24,8 @@ public class PlayerBehaviour : MonoBehaviour {
 	[SerializeField]
 	private LayerMask Objects;
 	private Animator animator;
+	[SerializeField]
+	private Animator animator2;
 
 	private Vector2 s;
 	private Vector2 start;
@@ -70,6 +72,15 @@ public class PlayerBehaviour : MonoBehaviour {
 		}
 	}
 	private void HandleInput(){
+		if (Input.GetKeyDown (KeyCode.G)) {
+			animator2.SetTrigger ("Attack");
+		}
+		if (Input.GetKey (KeyCode.H)) {
+			animator2.SetTrigger ("Stomp");
+		}
+		if (Input.GetKey (KeyCode.J)) {
+			animator2.SetTrigger ("Laser");
+		}
 		if (Input.GetKey (KeyCode.R)) {
 			Player.velocity = Vector2.zero;
 			transform.position = start;

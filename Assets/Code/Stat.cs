@@ -6,7 +6,7 @@ using System;
 public class Stat
 {
 	[SerializeField]
-	private BarBehaviour bar;
+	private BarBehaviour bar = null;
 	private float maxVal;
 	public float MaxVal{
 		get {
